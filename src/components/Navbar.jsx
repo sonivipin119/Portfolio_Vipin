@@ -40,13 +40,18 @@ const [scrolled, setScrolled] = useState(false);
   return (
     <div>
       <div className="relative top-0 left-0 w-full overflow-hidden">
-        <nav className={`top-0 font-serif flex items-center justify-between h-17 w-full fixed text-white z-10000  shadow-[5px_0px_20px_rgba(0,100,255,0.4)] border-r-0 border-l-0 border-[#303030] bg-black backdrop-blur-lg
-          ${scrolled ? "shadow-[0_5px_25px_rgba(0,123,255,0.45)]" : "shadow-none"}`}>
-          <div className="flex items-center w-30 ml-6 h-12 tracking-wider">
-            <span className="text-6xl text-amber-700">D</span>
+        <nav className={`top-0 font-serif flex items-center justify-between h-17 w-full fixed text-white z-10000 border-r-0 border-l-0 border-[#303030] bg-black bg-[radial-gradient(circle_at_50%_50%,rgba(30,144,255,0.18),transparent_70%)] backdrop-blur-xl transition-all duration-500
+          ${scrolled ? "shadow-[0_4px_20px_rgba(0,123,255,0.55)]" : "shadow-none"}`}>
+            
+            
+          <div className="flex items-center w-50 ml-15 h-12 tracking-wider">
+            <span className="text-5xl text-amber-700">
+              <span>/&gt;</span>
+            </span>
             <span className="mt-3 p-0">
               <span className="text-3xl">evelo</span>
-              <span className="text-3xl">per</span>
+              <span className="relative text-3xl top-1.5 ">?</span>
+              <span className="text-3xl">er</span>
               <span className="text-3xl">..</span>
             </span>
           </div>
