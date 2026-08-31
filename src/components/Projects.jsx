@@ -35,27 +35,20 @@ function Projects(){
           </div>
           <div className="text-[#ff9301] text-[100px] ml-17.5 mt-12.5 font-serif duration-400 hover:text-white">01</div>
         </div>
-        <div className="flex flex-row-reverse">
+        <div className="flex flex-row-reverse mb-4">
           <div className="object-cover bg-cover">
             <div className="shadow-[-15px_15px_10px_0px_rgba(135,206,235,0.3)] rounded-2xl">
               <img src= {homieeBook} className='w-60 h-60 rounded-2xl' />
             </div>
           </div>
           <div className="mr-10 w-1/2">
-            <h2 className='font-serif text-xl tracking-wider'>HomieeBook</h2> 
+            <h2 className='font-serif text-xl tracking-wider'>HomieeBook | <span className='text-amber-500'>Home Rental Platform</span></h2> 
             <p>
-              Developed a full-stack home booking platform using Node.js,
-              Express.js, and MongoDB, enabling users to browse, book, and
-              manage rental properties. Integrated OAuth authentication for
-              secure login and account management. Designed features for
-              property listings, availability tracking, and booking management
-              to ensure a smooth user experience. Focused on scalability, data
-              security, and reliability, making the system suitable for
-              real-world deployment in the property rental domain.
+              Developed a full-stack home rental and reservation platform using <b>Java, Spring Boot, React.js, MySQL, JPA/Hibernate, and Tailwind CSS</b>, enabling guests to browse, search, favourite, and book rental properties while hosts can list and manage their homes. Implemented secure authentication and role-based authorization using <b>JWT and Google OAuth 2.0</b>. Built RESTful APIs for property management, bookings, reviews, and user operations. Designed a responsive and user-friendly interface with a focus on security, scalability, maintainability, and reliable data management.
             </p>
             <div className="[&_button]:border-2 [&_button]:border-amber-600 [&_button]:bg-amber-600 [&_button]:rounded-md [&_button]:p-1 [&_button]:text-black text-[14px] font-bold tracking-wider">
               <a href="https://homiee-book-9a2u.vercel.app/" target="_blank"><button className="cursor-pointer">Live Demo</button></a>
-              <a href="https://github.com/sonivipin119/HomieeBook" target="_blank"><button className="ml-2 cursor-pointer">View Code</button></a>
+              <a href="https://github.com/sonivipin119/HomieeBookJ.git" target="_blank"><button className="ml-2 cursor-pointer">View Code</button></a>
             </div>
           </div>
           <div className="text-[#ff9301] text-[100px] mr-17.5 mt-12.5 font-serif duration-400 hover:text-white">02</div>
